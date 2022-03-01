@@ -55,5 +55,14 @@
   <body>
     <a href="release">release</a><br>
     <a href="collective">collective</a>
+    <section></section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $('section').mousemove(function(e){
+         var moveX = (e.pageX * -1 / 5);
+         var moveY = (e.pageY * -1 / 5);
+         $(this).css('background-position', moveX + 'px ' + moveY + 'px')
+      })
+    </script>           
   </body>
 </html>
