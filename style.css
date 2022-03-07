@@ -1,0 +1,7 @@
+#text{
+    z-index: 1;
+}
+
+#image{
+    z-index: -1;
+}
